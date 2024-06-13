@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1867a9;
+    padding: 10px;
+    text-align: center;
+}
+
+#logo-poli {
+    text-align: center;
+}
+
+body {
+    background-color: #dedee9;
+    font-family: "Arial", "sans-serif"; 
+    background-color: #dedee9;
+}
+
+nav>span>a:link, nav>span>a:visited{
+    color: white;
+}
+
+.botao {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.botao:hover {
+    background-color: #00bdff;
+    color: white;
+}
+
+nav>span>a:hover, .selecionado a{
+    background: #39f;
+   text-decoration: none;
+}
+
+#links {
+    word-spacing: 30px;
+}
+
+#quem-somos {
+    word-spacing: normal;
+}
+
+#enem {
+    padding-left: 275px;
+    padding-right: 275px;
+}
+
+#texto {
+    background-color: white;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+.conteudo {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.titulo {
+    text-align: center;
+    color: #1867a9;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#texto2 {
+    background-color: white;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+#texto-com-marcador {
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.negrito {
+    font-weight: 900;
+}
+
+#texto3 {
+    background-color: white;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+#fedback {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.nomes {
+    font-weight: 900;
+}
+
+footer {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+

@@ -1,0 +1,148 @@
+/* vai mudar a cor o alinhamento e o alinhamento do cabeçalho */
+header {
+    background: #1867a9;
+    padding: 10px;
+    text-align: center;
+}
+
+/* vai mudar a cor do corpo do site */
+body {
+    background-color: #dedee9;
+}
+
+/* tag universal com margem e alinhamento igual a zero */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* quando o cursor passar emcima ficara colorido e a cor da letra branca */
+.botao:hover {
+    background-color: #00bdff;
+    color: white;
+}
+
+/* vai manter o azul do hover quando pressionado */
+nav>span>a:hover, .selecionado a{
+    background: #39f;
+   text-decoration: none;
+}
+
+/* vai editar as configurações dos botoes */
+.botao {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+/* vai dar espacamento entre as palavras */
+#links {
+    word-spacing: 30px;
+}
+
+#quem-somos {
+    word-spacing: normal;
+}
+
+/* vai alinhar o texto no centro */
+.container {
+    text-align: center;
+}
+
+/* vai alinhar o texto com margem esquerda e direita de 275px na cor branca */
+#texto {
+    background-color: white;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+/* vai mudar a fonte com espacamento de 15px e texto justificado */
+.conteudo {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* vai mudar a cor alinhar o texto com letra em negrito e com tamanho de letra de 30px */
+.titulo {
+    text-align: center;
+    color: #1867a9;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/* vai alinhar o texto no centro */
+#img_quemsomos {
+    text-align: center;
+}
+
+/* vai alinhar o texto justificado com espacamentos e tipo de letra arial */
+.paragrafo {
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+/* vai alinhar o texto justificado com espacamentos e tipo de letra arial vai mudar a cor e deixar o texto sem decoração*/
+#referencias {
+    text-decoration: none;
+    color: #1867a9;
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* vai mudar a cor a fonte da letra e o tamanho da letra */
+.titulo_tabela {
+    color: #1867a9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.tabela {
+    padding-left: 400px;
+}
+
+table {
+    width: 500px;
+    height: 150px;
+    text-align: center;
+}
+
+.titulo_tab {
+    background-color: #1867a9;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.informacoes_tabela {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo-poli {
+    text-align: center;
+}
+
+.hr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
